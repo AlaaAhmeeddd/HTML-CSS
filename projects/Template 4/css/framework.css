@@ -1,0 +1,201 @@
+:root {
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --grey-color: #888;
+}
+/* Start box */
+.d-flex{
+    display: flex;
+}
+.d-grid{
+    display: grid;
+}
+.gap-20{
+    gap: 20px;
+}
+.d-block{
+    display: block;
+}
+/* End box */
+/* Start padding + margin */
+.p-10{
+    padding: 10px;
+}
+.p-20{
+    padding: 20px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
+.pb-10{
+    padding-bottom: 10px;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.m-20{
+    margin: 20px;
+}
+.m-10{
+    margin: 10px;
+}
+.mt-0{
+    margin-top: 0;
+}
+.mb-5{
+    margin-bottom: 5px;
+}
+.m-0{
+    margin: 0;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mb-0{
+    margin-bottom: 0;
+}
+/* End padding + margin */
+/* Start color */
+.bg-white{
+    background-color: white;
+}
+.bg-eee{
+    background-color: #eee;
+}
+.bg-orange{
+    background-color: var(--orange-color);
+}
+.bg-blue{
+    background-color: var(--blue-color);
+}
+.bg-green{
+    background-color: var(--green-color);
+}
+.bg-red{
+    background-color: var(--red-color);
+}
+/* End color */
+/* Start position */
+.p-relative{
+    position: relative;
+}
+/* End position */
+/* Start font */
+.txt-c{
+    text-align: center;
+}
+.fs-13{
+    font-size: 13px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-15{
+    font-size: 15px;
+}
+.c-grey{
+    color: var(--grey-color);
+}
+.c-black{
+    color: black;
+}
+.c-blue{
+    color: var(--blue-color);
+}
+.c-orange{
+    color: var(--orange-color);
+}
+.c-green{
+    color: var(--green-color);
+}
+.c-red{
+    color: var(--red-color);
+}
+.c-white{
+    color: white;
+}
+.f-bold{
+    font-weight: bold;
+}
+/* End font */
+/* Start border */
+.br-6{
+    border-radius: 6px;
+}
+.br-10{
+    border-radius: 10px;
+}
+.b-none{
+    border: none;
+}
+/* End border */
+/* Start media */
+@media(max-width: 767px){
+    .hide-mobile{
+        display: none;
+    }
+}
+@media(max-width: 767px){
+    .block-mobile{
+        display: block;
+    }
+}
+@media(max-width: 767px){
+    .txt-c-mobile{
+        text-align: center;
+    }
+}
+@media(max-width: 767px){
+    .smaller-p-10{
+        padding: 10px;
+    }
+}
+/* End media */
+/* Start component */
+.f-sb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.f-cc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-class{
+    text-align: end;
+    margin-right: 17px;
+}
+.button-a{
+    background-color: var(--blue-color);
+    color: white;
+    padding: 5px 10px;
+}
+.btn-shape{
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+/* End component */
+/* Start width + height */
+.fw{
+    width: 100%;
+}
+.fh{
+    height: 100%;
+}
+/* End width + height */
